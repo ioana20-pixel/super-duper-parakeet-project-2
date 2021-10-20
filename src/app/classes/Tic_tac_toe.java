@@ -1,10 +1,4 @@
-package app.classes;/*
- * Tic Tac Toe
-By Somya Srivastava
-P. Sai Mounika
- */
-
-
+package app.classes;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -310,8 +304,7 @@ public class Tic_tac_toe extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void bt6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt6ActionPerformed
-        // TODO add your handling code here:
+    private void bt6ActionPerformed(java.awt.event.ActionEvent evt) {
         bt6.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
             bt6.setForeground(Color.red);
@@ -337,7 +330,7 @@ public class Tic_tac_toe extends javax.swing.JFrame {
             game(chance);
         }
         bt6.setEnabled(false);
-    }//GEN-LAST:event_bt6ActionPerformed
+    }
 
     private void bt4ActionPerformed(java.awt.event.ActionEvent evt) {
         bt4.setText(startGame);
@@ -368,8 +361,7 @@ public class Tic_tac_toe extends javax.swing.JFrame {
         bt4.setEnabled(false);
     }
     private JFrame frame;
-    private void jbtnexitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnexitActionPerformed
-        // TODO add your handling code here:
+    private void jbtnexitActionPerformed(java.awt.event.ActionEvent evt) {
         frame=new JFrame("Exit");
         if(jbtnexit.getText()=="Start Game"){
             if(JOptionPane.showConfirmDialog(frame,"Do you want to Play first?","Tic Tac Toe",
@@ -391,10 +383,9 @@ public class Tic_tac_toe extends javax.swing.JFrame {
                 System.exit(0);
             }
         }
-    }//GEN-LAST:event_jbtnexitActionPerformed
+    }
 
-    private void jbtnresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnresetActionPerformed
-        // TODO add your handling code here:
+    private void jbtnresetActionPerformed(java.awt.event.ActionEvent evt) {
 
         bt1.setText(null);
         bt2.setText(null);
@@ -446,10 +437,9 @@ public class Tic_tac_toe extends javax.swing.JFrame {
         if(h==0){
             gamec(0);
         }
-    }//GEN-LAST:event_jbtnresetActionPerformed
+    }
 
-    private void bt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt1ActionPerformed
-        // TODO add your handling code here:
+    private void bt1ActionPerformed(java.awt.event.ActionEvent evt) {
         chance++;
         bt1.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
@@ -477,10 +467,9 @@ public class Tic_tac_toe extends javax.swing.JFrame {
         }
         bt1.setEnabled(false);
 
-    }//GEN-LAST:event_bt1ActionPerformed
+    }
 
-    private void bt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt2ActionPerformed
-        // TODO add your handling code here:
+    private void bt2ActionPerformed(java.awt.event.ActionEvent evt) {
         chance++;
         bt2.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
@@ -510,8 +499,7 @@ public class Tic_tac_toe extends javax.swing.JFrame {
         bt2.setEnabled(false);
     }//GEN-LAST:event_bt2ActionPerformed
 
-    private void bt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt3ActionPerformed
-        // TODO add your handling code here:
+    private void bt3ActionPerformed(java.awt.event.ActionEvent evt) {
         bt3.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
             bt3.setForeground(Color.red);
@@ -539,10 +527,9 @@ public class Tic_tac_toe extends javax.swing.JFrame {
             game(chance);
         }
         bt3.setEnabled(false);
-    }//GEN-LAST:event_bt3ActionPerformed
+    }
 
-    private void bt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt5ActionPerformed
-        // TODO add your handling code here:
+    private void bt5ActionPerformed(java.awt.event.ActionEvent evt) {
         bt5.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
             bt5.setForeground(Color.red);
@@ -570,10 +557,9 @@ public class Tic_tac_toe extends javax.swing.JFrame {
             game(chance);
         }
         bt5.setEnabled(false);
-    }//GEN-LAST:event_bt5ActionPerformed
+    }
 
-    private void bt7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt7ActionPerformed
-        // TODO add your handling code here:
+    private void bt7ActionPerformed(java.awt.event.ActionEvent evt) {
         bt7.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
             bt7.setForeground(Color.red);
@@ -600,12 +586,9 @@ public class Tic_tac_toe extends javax.swing.JFrame {
             game(chance);
         }
         bt7.setEnabled(false);
-    }//GEN-LAST:event_bt7ActionPerformed
+    }
 
-    private void bt8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt8ActionPerformed
-
-
-// TODO add your handling code here:
+    private void bt8ActionPerformed(java.awt.event.ActionEvent evt) {
         bt8.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
             bt8.setForeground(Color.red);
@@ -633,10 +616,9 @@ public class Tic_tac_toe extends javax.swing.JFrame {
             game(chance);
         }
         bt8.setEnabled(false);
-    }//GEN-LAST:event_bt8ActionPerformed
+    }
 
-    private void bt9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt9ActionPerformed
-        // TODO add your handling code here:
+    private void bt9ActionPerformed(java.awt.event.ActionEvent evt) {
         bt9.setText(startGame);
         if(startGame.equalsIgnoreCase("X")){
             bt9.setForeground(Color.red);
@@ -663,57 +645,15 @@ public class Tic_tac_toe extends javax.swing.JFrame {
             game(chance);
         }
         bt9.setEnabled(false);
-    }//GEN-LAST:event_bt9ActionPerformed
-
-
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-
-        magicSq=magicSquare();
-        for(int i=0; i<9;i++){
-            System.out.println(magicSq[i]);
-            blank[i]=-1;
-        }
-
-
-
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Tic_tac_toe().setVisible(true);
-
-            }
-        });
     }
+
+
+
 
     public void gamec(int x){
 
 
 
-//System.out.print("Human plays first Y/N");
-//String response=scanf.nextLine();
         if(x==0){
             System.out.println("Move 1: Computer's Chance");
 
@@ -725,16 +665,7 @@ public class Tic_tac_toe extends javax.swing.JFrame {
                 }
             }
         }
-        //System.out.println("Human List"+H);
-        //System.out.println("Computer List"+C);
 
-
-        //Scanner scan= new Scanner(System.in);
-
-        // System.out.println("Move 2: Human's Chance");
-        //HumanChance();
-
-        //System.out.println("Move 3: Computer's Chance");
         if(x==2){
 
             if(!H.contains(9)){
@@ -754,7 +685,6 @@ public class Tic_tac_toe extends javax.swing.JFrame {
             }
         }
 
-        //System.out.println("Move 5: Computer's Chance");
         if(x==4){
             int b=PossWin(C);
             if(b!=0){
@@ -799,7 +729,6 @@ public class Tic_tac_toe extends javax.swing.JFrame {
 
 
         if(x==6){
-            //System.out.println("Move 7: Computer's Chance");
             int d=PossWin(C);
             System.out.print(d);
 
@@ -835,7 +764,6 @@ public class Tic_tac_toe extends javax.swing.JFrame {
 
 
         if(x==8){
-            System.out.println("Move 9: Computer's Chance");
             int k=PossWin(C);
 
             if(k!=0){
@@ -1159,7 +1087,39 @@ public class Tic_tac_toe extends javax.swing.JFrame {
         return magicSq;
     }
 
+    public static void main(String args[]) {
 
+        magicSq=magicSquare();
+        for(int i=0; i<9;i++){
+            System.out.println(magicSq[i]);
+            blank[i]=-1;
+        }
+
+
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Tic_tac_toe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Tic_tac_toe().setVisible(true);
+
+            }
+        });
+    }
 
     public static int returnIndex(int a){
         for(int i=0; i<9;i++){
